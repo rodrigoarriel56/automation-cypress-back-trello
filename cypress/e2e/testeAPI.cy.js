@@ -1,7 +1,8 @@
 describe('Teste Técnico Astro - Apenas API', () => {
 
-//const key = 
-//const token = 
+    //ATENÇÃO, POR MOTIVO DE SEGURANÇA, NÃO ESQUECER DE DE PREENCHER AS CREDENCIAIS DE CHAVE E TOKEN 
+const key = ''
+const token = ''
 let quadroID;
 let listaID;
 let cartaoID;
