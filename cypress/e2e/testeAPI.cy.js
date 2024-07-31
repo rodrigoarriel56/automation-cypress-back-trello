@@ -1,5 +1,7 @@
 describe('Teste Técnico Astro - Apenas API', () => {
 
+//const key = 
+//const token = 
 let quadroID;
 let listaID;
 let cartaoID;
