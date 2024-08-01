@@ -8,11 +8,11 @@ let listaID;
 let cartaoID;
 
 it('Cadastrar quadro novo', () => {
-
     cy.request({
     method: 'POST',
     url: 'https://api.trello.com/1/boards/',
-    qs: {
+    qs: 
+    {
         name: 'AUTOMAÇÃO DE QA',
         key: key,
         token: token,
@@ -30,7 +30,8 @@ it('Cadastrar lista', () => {
     cy.request({
     method: 'POST',
     url: `https://api.trello.com/1/boards/${quadroID}/lists`,
-    qs: {
+    qs: 
+    {
         name: 'LISTA DE TIKET DE AUTOMAÇÃO',
         key: key,
         token: token,
@@ -43,11 +44,11 @@ it('Cadastrar lista', () => {
 });
 
 it('Cadastrar cartão', () => {
-
     cy.request({
     method: 'POST',
     url: `https://api.trello.com/1/cards`,
     qs: {
+
         name: 'CADASTRAR ISSUE',
         idList: listaID,
         key: key,
