@@ -15,13 +15,13 @@ git clone https://github.com/rodrigoarriel56/automation-cypress-back-trello.git
 ```
 cd automation-cypress-back-trello
 ```
-```
+
 4- Instalar o Cypress com Cucumber executando o seguinte comando na raíz da pasta do seu projeto
 ```
 npm install
 ```
+5 - Passo de execução dos testes:
 ```
-5 - Passo de execução dos testes
 5.1 - Para iniciar os testes, execute um dos seguintes comandos no terminal do VS Code:
 ```
 ```
